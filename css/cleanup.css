@@ -1,1 +1,16 @@
 /* write your override styles here */
+
+#wall .tag-1
+{
+    display:none;
+}
+
+#wall div {
+    display: none;
+}
+
+/*the selector is more specific,
+but I have no idea why it is not being applied*/
+body #wall div #tag-3 .slick {
+    display: none;
+}
